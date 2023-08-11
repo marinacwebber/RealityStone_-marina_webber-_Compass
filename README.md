@@ -51,6 +51,7 @@ PULL REQUEST - <br>No site do github "compare & pull requiest" (após ter feito 
 <p align="left">É uma linguagem de programação orientada a objetos, interpretada, tem grande comunidade e a tipagem é forte e dinâmica.</p>
 <p align="left">Na pasta Aulas_de_Ruby está documentado os exercícios para fixação do aprendizado da linguagem</p> 
 <br>
+
 <p align="left">Intalação através do link: https://rubyinstaller.org/downloads/</p>
 <br>
 
