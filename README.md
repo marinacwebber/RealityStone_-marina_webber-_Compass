@@ -29,9 +29,7 @@
 
 <p align="left">É um sistema que controla o versionamento de arquivos.  <br>Alguns comandos desta ferramenta:<br>
 <br>
-```
-  ⚡ git init  - inicializa um repositório  ou reinicializa um já existente<br>⚡ git add .  / git add exemplo - manda os arquivos para a área de stage<br>⚡  git status  -  exibe o estado do diretório<br>⚡ git commit -m "alguma mensagem"  -  para salvar a nova versão<br>⚡git branch exemplo  -  cria uma branch <br>⚡ git checkout exemplo  -  muda para a branch<br>⚡ git remote add origin  https://github....-  faz o reposítorio da minha máquina vá para o github, usado só uma vez <br>⚡  git push --set-upstream origin exemplo  -  para subir para a nuvem<br>⚡ git push -  coloca o commit  do repositório local no remoto<br>⚡  git checkout master  -  troca de branch<br>⚡ git pull - trás as atualizações do servidor para a máquina local<br>⚡ git merge exemplo  -  puxar informação para a branch master<br>⚡ git reflog  -  ver o histórico<br>⚡  git reset --hard 12345- o número vai dapender da ip da versão que deseja navegar<br>⚡  git checkout -b algum-sistema master  -  cria uma branch com base na brange master<br>⚡  touch .gitignore  - dentro desta pasta vou selecionar arqiovos que não deseja mandar 
-```
+  ⚡ git init  - inicializa um repositório  ou reinicializa um já existente<br>⚡ git add .  / git add exemplo - manda os arquivos para a área de stage<br>⚡  git status  -  exibe o estado do diretório<br>⚡ git commit -m "alguma mensagem"  -  para salvar a nova versão<br>⚡git branch exemplo  -  cria uma branch <br>⚡ git checkout exemplo  -  muda para a branch<br>⚡ git remote add origin  https://github....-  faz o reposítorio da minha máquina vá para o github, usado só uma vez <br>⚡  git push --set-upstream origin exemplo  -  para subir para a nuvem<br>⚡ git push -  coloca o commit  do repositório local no remoto<br>⚡  git checkout master  -  troca de branch<br>⚡ git pull - trás as atualizações do servidor para a máquina local<br>⚡ git merge exemplo  -  puxar informação para a branch master<br>⚡ git reflog  -  ver o histórico<br>⚡  git reset --hard 12345- o número vai dapender da ip da versão que deseja navegar<br>⚡  git checkout -b algum-sistema master  -  cria uma branch com base na brange master<br>⚡  touch .gitignore  - dentro desta pasta vou selecionar arquivos que não deseja mandar 
 
 
 ###
@@ -55,8 +53,9 @@ PULL REQUEST - <br>No site do github "compare & pull requiest" (após ter feito 
 ###
 
 <div align="left">
+  <ul>Ruby
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" height="40" alt="ruby logo"  />
-  <img width="12" />
+  <img width="12" /></ul>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
