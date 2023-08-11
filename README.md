@@ -62,7 +62,6 @@ PULL REQUEST - <br>No site do github "compare & pull requiest" (após ter feito 
   <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" alt="visualstudio logo"  />  Visual Studio Code</ul>
   <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
   <img width="12" />  NodeJs</ul>
-  <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cucumber/cucumber-plain.svg" height="40" alt="cucumber logo"  />  Gherkin Indent </ul>
     
 </div>
 
