@@ -39,7 +39,7 @@
 ###
 
 <p align="left">É uma plataforma para poder hospedar arquivos que são usados pelo git.</p>
-<br><br>
+<br>
 PULL REQUEST - <br>No site do github "compare & pull requiest" (após ter feito um commit)<br>Selecionar a base <- compare<br>Colocar um título e uma descrição da alteração e "Create pull request"<br>✅Caso tudo ok será aprovado<br>🔙 Caso reprovar terá que refazer e commitar novamente.</p>
 
 ###
@@ -47,6 +47,14 @@ PULL REQUEST - <br>No site do github "compare & pull requiest" (após ter feito 
 <h3 align="left">🔴  Ruby</h3>
 
 ###
+
+<p align="left">É uma linguagem de programação orientada a objetos, interpretada, tem grande comunidade e a tipagem é forte e dinâmica.</p>
+<p align="left">Na pasta Aulas_de_Ruby está documentado os exercícios para fixação do aprendizado da linguagem</p> 
+<br>
+<p align="left">Intalação através do link: https://rubyinstaller.org/downloads/</p>
+<br>
+
+### 
 
 <h3 align="left">🛠 Pré-requisitos - Linguagens e Ferramentas</h3>
 
