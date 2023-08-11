@@ -16,3 +16,6 @@
 #
 * 09/08/23 - Pratiquei os comandos do git e atualizei o README do develop
 #
+* 10/08/23 - Assisti aos vídeos de introdução ao Ruby, disponibilizados nos dias 3 e 4 e realizei alguns exercícios propóstos
+#
+* 11/08/23 - Realizei as atividades do projeto, complementando os testes unitários e fazer eles passarem
