@@ -2,9 +2,7 @@
 escolha = 1
 count = 1
 total = 0.0
-while escolha == 1
-    print 'Selecione uma opção? 1 - Comprar 0 - Sair '
-    escolha = gets.chomp.to_i
+loop do escolha == 1
     fruits = ['Maça', 'Uva', 'Morango','Amora']
     valores_hash = {1 =>'4.50', 2 =>'5.50', 3 =>'17.20', 4 =>'20'}
 for xyz in fruits
@@ -12,11 +10,14 @@ for xyz in fruits
     count += 1
 end
     print 'Digite o número correspondente da fruta que deseja consultar o valor? '
-    compra = gets.chomp
-    print "#{valores_hash[:compra]}" 
-
+    chave = gets.chomp
+    for valores_hash { |chave, valor|
+        puts "A posição #{chave} guarda o valor #{valor}"
+      }
+    end
+    print ' 1 - Comprar 0 - Sair '
+    escolha = gets.chomp.to_i
+    if escolha == 0
+        break
+    end
 end
-
-
-
-
