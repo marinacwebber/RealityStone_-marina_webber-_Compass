@@ -55,7 +55,7 @@ class AboutArrays < Neo::Koan
     array = [:peanut, :butter, :and, :jelly]
 
     assert_equal [:peanut, :butter, :and], array[0..2]
-    assert_equal [:peanut, :butter, :and], array[0...2]
+    assert_equal [:peanut, :butter], array[0...2]
     assert_equal [:and, :jelly], array[2..-1]
   end
 
@@ -63,22 +63,22 @@ class AboutArrays < Neo::Koan
     array = [1,2]
     array.push(:last)
 
-    assert_equal __, array
+    assert_equal [1,2,:last], array
 
     popped_value = array.pop
-    assert_equal __, popped_value
-    assert_equal __, array
+    assert_equal :last, popped_value
+    assert_equal [1,2], array
   end
 
   def test_shifting_arrays
     array = [1,2]
     array.unshift(:first)
 
-    assert_equal __, array
+    assert_equal [:first, 1, 2], array
 
     shifted_value = array.shift
-    assert_equal __, shifted_value
-    assert_equal __, array
+    assert_equal :first, shifted_value
+    assert_equal [1,2], array
   end
 
 end
