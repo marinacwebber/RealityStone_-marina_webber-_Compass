@@ -99,8 +99,8 @@
 
 ###
 ## Créditos
-
-- **https://www.tutorialspoint.com/ruby/ruby_operators.htm**
+- **Agradeço a compass pela oportunidade, ao Scrum Master "Rafael Vescio" por nos apoiar e também agradeço ao time, que está sempre pronto para ajudar!**
+- **Site pesquisado:** - https://www.tutorialspoint.com/ruby/ruby_operators.htm
 
 ###
 ## Licença
