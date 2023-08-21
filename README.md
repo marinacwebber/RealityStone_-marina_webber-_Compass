@@ -105,5 +105,5 @@
 ###
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](../RealityStone/LICENCE). 
+Este projeto está licenciado sob a [Licença MIT](/LICENCE). 
 ###
