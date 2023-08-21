@@ -19,47 +19,38 @@
 
 ###
 
-<p align="left">Este projeto tem como base registrar os aprendizados, relatar as atividades diárias além da realização do desafio na linguagem Ruby.</p>
+<p align="left">Este projeto tem como base registrar aprendizados, de forma organizada, assuntos desta sprint foram Git, Github, linguagem de programação Ruby, testes unitários do Ruby Koans e o framework RSpec, além destes, foi realizado o desafio da calculadora. </p>
+<p align="left">O desafio consiste em uma calculadora implementada em Ruby, seguindo a abordagem do Desenvolvimento Orientado por Testes (TDD). Isto é, primeiramente testes unitários foram levantados para validar a funcionalidade das operações da calculadora, e após foi implementado a funcionalidade da calculadora. </p>
+
+## Funcionalidades
+
+<p align="left">A calculadora desenvolvida realiza as seguintes operações:</p>
+
+- **Adição:** 
+- **Subtração:** 
+- **Divisão:** 
+- **Multiplicação:** 
+- **Potenciação:** 
 
 ###
 
-<h3 align="left">🔴  Git</h3>
+
+<h3 align="left">🛠 Pré-requisitos</h3>
 
 ###
 
-<p align="left">É um sistema que controla o versionamento de arquivos.  <br>Alguns comandos desta ferramenta:<br>
-<br>
-  ⚡ git init  - inicializa um repositório  ou reinicializa um já existente<br>⚡ git add .  / git add exemplo - manda os arquivos para a área de stage<br>⚡  git status  -  exibe o estado do diretório<br>⚡ git commit -m "alguma mensagem"  -  para salvar a nova versão<br>⚡git branch exemplo  -  cria uma branch <br>⚡ git checkout exemplo  -  muda para a branch<br>⚡ git remote add origin  https://github....-  faz o reposítorio da minha máquina vá para o github, usado só uma vez <br>⚡  git push --set-upstream origin exemplo  -  para subir para a nuvem<br>⚡ git push -  coloca o commit  do repositório local no remoto<br>⚡  git checkout master  -  troca de branch<br>⚡ git pull - trás as atualizações do servidor para a máquina local<br>⚡ git merge exemplo  -  puxar informação para a branch master<br>⚡ git reflog  -  ver o histórico<br>⚡  git reset --hard 12345- o número vai dapender da ip da versão que deseja navegar<br>⚡  git checkout -b algum-sistema master  -  cria uma branch com base na brange master<br>⚡  touch .gitignore  - dentro desta pasta vou selecionar arquivos que não deseja mandar 
+<p align="left">Para este projeto é preciso configurar um ambiente de desenvolvimento Ruby. Segue abaixo os pré-requisitos:</p>
 
+1. **Instalar o Ruby:** Baixe e instale o Ruby. Intalação através do link: https://rubyinstaller.org/downloads/.
 
-###
+2. **Instalar o Visual Studio Code:** Intalação através do link: https://code.visualstudio.com/
 
-<h3 align="left">🔴  GitHub</h3>
+3. **Baixar o git:** https://git-scm.com/downloads
 
-###
+4. **Criar conta no Github:** https://github.com/
 
-<p align="left">É uma plataforma para poder hospedar arquivos que são usados pelo git.</p>
-<br>
-PULL REQUEST - <br>No site do github "compare & pull requiest" (após ter feito um commit)<br>Selecionar a base <- compare<br>Colocar um título e uma descrição da alteração e "Create pull request"<br>✅Caso tudo ok será aprovado<br>🔙 Caso reprovar terá que refazer e commitar novamente.</p>
+5. **Criar diretório e novo projeto:**
 
-###
-
-<h3 align="left">🔴  Ruby</h3>
-
-###
-
-<p align="left">É uma linguagem de programação orientada a objetos, interpretada, tem grande comunidade e a tipagem é forte e dinâmica.</p>
-<p align="left">Na pasta Aulas_de_Ruby está documentado os exercícios para fixação do aprendizado da linguagem</p> 
-<br>
-
-<p align="left">Intalação através do link: https://rubyinstaller.org/downloads/</p>
-<br>
-
-### 
-
-<h3 align="left">🛠 Pré-requisitos - Linguagens e Ferramentas</h3>
-
-###
 
 <div align="left">
   <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" height="40" alt="ruby logo"  />

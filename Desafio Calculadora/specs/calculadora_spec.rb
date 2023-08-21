@@ -88,8 +88,12 @@ describe('Calculadora') do
         expect(calculadora.potencia(12, 0)).to eq 1
     end
 
-    it('Deve calcular potência quando base negativa') do
+    it('Deve calcular potência quando base negativa com expoente par') do
         expect(calculadora.potencia(-4, 2)).to eq 16
+    end
+
+    it('Deve calcular potência quando base negativa com expoente impar') do
+        expect(calculadora.potencia(-4, 3)).to eq -64
     end
 
     it('Deve calcular potência quando expoente negativa') do

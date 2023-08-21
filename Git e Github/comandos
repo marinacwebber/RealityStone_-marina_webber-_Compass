@@ -1,0 +1,42 @@
+<h3 align="left">🔴  Git</h3>
+
+###
+
+<p align="left">É um sistema que controla o versionamento de arquivos.</p>  
+<br>Alguns comandos desta ferramenta:<br>
+
+```git init  - inicializa um repositório  ou reinicializa um já existente 
+```git add .  / git add exemplo - manda os arquivos para a área de stage 
+```git status  -  exibe o estado do diretório 
+```git commit -m "alguma mensagem"  -  para salvar a nova versão
+```git branch exemplo  -  cria uma branch
+```git checkout exemplo  -  muda para a branch
+```git remote add origin  https://github....-  faz o reposítorio da minha máquina vá para o github, usado só uma vez 
+```git push --set-upstream origin exemplo  -  para subir para a nuvem
+```git push -  coloca o commit  do repositório local no remoto
+```git checkout master  -  troca de branch 
+```git pull - trás as atualizações do servidor para a máquina local 
+```git merge exemplo  -  puxar informação para a branch master 
+```git reflog  -  ver o histórico 
+```git reset --hard 12345- o número vai dapender da ip da versão que deseja navegar 
+```git checkout -b algum-sistema master  -  cria uma branch com base na brange master 
+```touch .gitignore  - dentro desta pasta vou selecionar arquivos que não deseja mandar 
+
+
+###
+
+<h3 align="left">🔴  GitHub</h3>
+
+###
+
+<p align="left">É uma plataforma para poder hospedar arquivos que são usados pelo git.</p>
+
+1. **PULL REQUEST:** 
+ <br>No site do github "compare & pull requiest" (após ter feito um commit)<br>Selecionar a base <- compare<br>Colocar um título e uma descrição da alteração e "Create pull request"<br>✅Caso tudo ok será aprovado<br>🔙 Caso reprovar terá que refazer e commitar novamente.
+
+2. **FORK:** 
+<br> São cópias de um repositório totalmente separados do original.
+
+2. **BRANCHS:** 
+<br> São partes do mesmo repositório que constroempartes diferentes do programa e depois são mesclados(Merged) ao todo.
+###

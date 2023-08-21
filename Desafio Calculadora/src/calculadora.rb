@@ -4,7 +4,7 @@ class Calculadora
         a + b
     end
 
-    def subtrai(a, b)        
+    def subtrai(a, b)
         a - b
     end
 
