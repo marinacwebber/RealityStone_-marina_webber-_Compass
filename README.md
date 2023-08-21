@@ -89,7 +89,7 @@
 - **Criar uma nova branch:** - No terminal:  `git checkout -b nova_branch` 
 - **Altere o código faça os commits:** - No terminal: `git commit -m "mensagem_do_commit"`
 - **Envie a branch para o GitHub:** Envie a branch - No terminal: `git push origin nova_branch`
-- **Crie um Pull Request:** No GitHub, na página do repositório do usuário no botão: "Compare & pull request". E em seguida o botão: "Create Pull Request".
+- **Crie um Pull Request:** No GitHub, na página do repositório no botão: "Compare & pull request". E em seguida o botão: "Create Pull Request".
 ###
 
 ## Autora
