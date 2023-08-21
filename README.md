@@ -68,11 +68,11 @@
 
 <p align="left"> Na pasta onde o projeto foi criado abrir o gitBash e em seguida digitar o código:  `rspec specs/calculadora_spec.rb`</p>
 
-- **Quando está tudo certo:** 
-![Teste Correto](teste_correto.png)
+- **Quando está tudo certo:** <br>
+![Teste Correto](teste_correto.png) <br>
 
-- **Quando algum teste apresenta falhas:** 
-![Teste Falhou](teste_falhou.png)
+- **Quando algum teste apresenta falhas:**  <br>
+![Teste Falhou](teste_falhou.png) <br>
 
 ###
 
