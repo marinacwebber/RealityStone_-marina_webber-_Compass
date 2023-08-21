@@ -1,8 +1,8 @@
-<h3 align="left">🔴  Git</h3>
+🔴  Git
 
 ###
 
-<p align="left">É um sistema que controla o versionamento de arquivos.</p>  
+<p>É um sistema que controla o versionamento de arquivos.</p>  
 <br>Alguns comandos desta ferramenta:<br>
 
 `git init`  - inicializa um repositório  ou reinicializa um já existente 
@@ -25,11 +25,11 @@
 
 ###
 
-<h3 align="left">🔴  GitHub</h3>
+🔴  GitHub
 
 ###
 
-<p align="left">É uma plataforma para poder hospedar arquivos que são usados pelo git.</p>
+<p>É uma plataforma para poder hospedar arquivos que são usados pelo git.</p>
 
 1. **PULL REQUEST:** 
  <br>No site do github "compare & pull requiest" (após ter feito um commit)<br>Selecionar a base <- compare<br>Colocar um título e uma descrição da alteração e "Create pull request"<br>✅Caso tudo ok será aprovado<br>🔙 Caso reprovar terá que refazer e commitar novamente.
