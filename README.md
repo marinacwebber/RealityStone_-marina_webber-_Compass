@@ -45,7 +45,7 @@
 
 ###
 
-<p align="left">Para este projeto é preciso configurar um ambiente de desenvolvimento Ruby, além de ter conhecimento dos mesmos. Para as instalações dos links abaixo, sempre deve ter cuidado para selecionar as versões compativeis com o sistema operacional. </p>
+<p align="left">Para este projeto é preciso configurar um ambiente de desenvolvimento e ter conhecimento destas tecnologias. Para as instalações dos links abaixo, sempre deve ter cuidado para selecionar as versões compativeis com o sistema operacional. </p>
 
 1. **Instalar o Ruby:** Baixe e instale o Ruby. Intalação através do link: https://rubyinstaller.org/downloads/.
 
