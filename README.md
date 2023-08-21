@@ -77,7 +77,8 @@
 ###
 
 ## Realizando interação da calculadora com usuário 
-<p align="left">Digita neste mesmo terminal da execução   `ruby app/app_calculadora.rb`</p>
+<p align="left">Digita neste mesmo terminal da execução   `ruby app/app_calculadora.rb`</p>  <br>
+
 ![Interação Usuário](interacao_usuario.png)
 
 ###
