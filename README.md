@@ -19,7 +19,7 @@
 
 ###
 
-<p align="left">Esta sprint abordou diversos assuntos, e nesta plataforma do github, estes aprendizados e desafios foram colocador de maneira organizada em pastas e arquivos para um melhor entendimento. Os temas abordados foram: <br>** Git, <br>**Github, **Linguagem de programação Ruby, <br>**Testes unitários do Ruby Koans (para fazer os testes passarem. Para executar um arquivo específico: `ruby about_asserts.rb`), <br>**Framework RSpec, <br>**Desafio da calculadora. </p>
+<p align="left">Esta sprint abordou diversos assuntos, e nesta plataforma do github, estes aprendizados e desafios foram colocados de maneira organizada em pastas e arquivos para um melhor entendimento. Os temas abordados foram: <br>** Git, <br>**Github, <br>**Linguagem de programação Ruby, <br>**Testes unitários do Ruby Koans (para fazer os testes passarem. Para executar um arquivo específico: `ruby about_asserts.rb`), <br>**Framework RSpec, <br>**Desafio da calculadora. </p>
 
 ###
 
@@ -69,16 +69,16 @@
 <p align="left"> Na pasta onde o projeto foi criado abrir o gitBash e em seguida digitar o código:  `rspec specs/calculadora_spec.rb`</p>
 
 - **Quando está tudo certo:** 
-![Teste Correto](../RealityStone/Desafio%20Calculadora/teste_correto.png)
+![Teste Correto](teste_correto.png)
 
 - **Quando algum teste apresenta falhas:** 
-![Teste Falhou](../RealityStone/Desafio%20Calculadora/teste_falhou.png)
+![Teste Falhou](teste_falhou.png)
 
 ###
 
 ## Realizando interação da calculadora com usuário 
 <p align="left">Digita neste mesmo terminal da execução   `ruby app/app_calculadora.rb`</p>
-![Interação Usuário](../RealityStone/Desafio%20Calculadora/interacao_usuario.png)
+![Interação Usuário](interacao_usuario.png)
 
 ###
 
