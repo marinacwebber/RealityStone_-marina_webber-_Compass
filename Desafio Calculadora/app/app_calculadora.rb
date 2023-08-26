@@ -1,7 +1,10 @@
-
 require_relative '../src/calculadora'
+require_relative '../src/saida'
+require_relative '../src/entrada'
 
 result = ''
+saida = Saida.new
+entrada = Entrada.new
 
 loop do
     puts result
@@ -13,16 +16,17 @@ loop do
     puts '5 - Potência'
     puts '0 - Sair'
     print 'Escolha a operação: '
-    escolha = gets.chomp.to_i  
+    escolha = entrada.entrada_opcao(gets.chomp) 
 
     if escolha == 0
         break
     else
+        begin
         calculadora = Calculadora.new
         print 'Escolha p 1º número: '
-        numero1 = gets.chomp.to_f
+        numero1 = entrada.entrada_float(gets.chomp)
         print 'Escolha p 2º número: '
-        numero2 = gets.chomp.to_f
+        numero2 = entrada.entrada_float(gets.chomp)
         case escolha
             when 1 
                 result = calculadora.soma(numero1, numero2)
@@ -36,7 +40,13 @@ loop do
                 result = calculadora.potencia(numero1, numero2)     
             else
                 result = 'Opção inválida'
-        end
+            end
+            rescue ArgumentError => e
+                result = e.message
+            rescue StandardError => e
+                result = "Erro ocorreu: #{e.message}"
+            end
+        
     end
 end
 
