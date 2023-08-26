@@ -1,11 +1,36 @@
 require 'rspec'
 require 'pry'
 require_relative '../src/calculadora'
+require_relative '../src/saida'
+require_relative '../src/entrada'
 
 describe('Calculadora') do
     # calculadora = Calculadora.new => Recebe uma instância de Calculadora(Objeto da classe calculadora)
     calculadora = Calculadora.new
+
+
+# Validação para verificar se 'a' e 'b' são numéricos, se não for, ele lança um 'ArgumentError' com uma mensagem
+    it('Não deve aceitar entrada de letras na soma') do
+        expect { calculadora.soma(4, 'abc') }.to raise_error(ArgumentError, "Os números devem ser valores numéricos válidos.")
+    end
     
+      it('Não deve aceitar entrada de letras na subtração') do
+        expect { calculadora.subtrai('def', 2) }.to raise_error(ArgumentError, "Os números devem ser valores numéricos válidos.")
+    end
+
+    it('Não deve aceitar entrada de letras na multiplicação') do
+        expect { calculadora.multiplica('t', 8) }.to raise_error(ArgumentError, "Os números devem ser valores numéricos válidos.")
+    end
+
+    it('Não deve aceitar entrada de letras na divisão') do
+        expect { calculadora.divide('hj', 4) }.to raise_error(ArgumentError, "Os números devem ser valores numéricos válidos.")
+    end
+
+    it('Não deve aceitar entrada de letras na potenciação') do
+        expect { calculadora.potencia(2, 'oi') }.to raise_error(ArgumentError, "Os números devem ser valores numéricos válidos.")
+    end
+    
+
 # Soma
     it('Deve somar dois inteiros positivos') do
         expect(calculadora.soma(4, 5)).to eq 9
@@ -25,7 +50,6 @@ describe('Calculadora') do
 
 # Subtração
     it('Deve subtrair dois números inteiros positivos') do
-        #binding.pry # Com essa chamada a aplicação vai parar exatamenta aqui, e assim consegue observar onde está a falha
         expect(calculadora.subtrai(8, 2)).to eq 6
     end
 
